@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.nav-Header {
+  width: 14%;
+}
+.Nav-footer,
+.nav-Header .icons,
+.Nav-links ul li,
+.openClose,#openClose {
+  cursor: pointer;
+}
+#searchContainer *input {
+  color: white;
+}
+.side-nav-menu {
+  z-index: 99;
+}
+.Nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.col-md-3 {
+  cursor: pointer;
+}
+.loading{
+  z-index: 100;
+  
+ 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  
+}
+.Nav-links .link{
+  list-style: none;
+  overflow: hidden;
+ position: absolute;
+ 
+}
+.Nav-links .link li{
+  position: relative;
+
+ top: 300px;
+
+  
+  
+
+}
